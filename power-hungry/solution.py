@@ -11,10 +11,11 @@ def solution(xs):
     if any(i==0 for i in xs):
         xs = [i for i in xs if i != 0]
     
-    result = 1
-    for i in xs:
-        result *= i
+    
     if len(xs) == 0:
         return '0'
     else:
+        result = 1
+        for i in xs:
+            result *= i
         return str(result)
