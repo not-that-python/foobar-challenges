@@ -1,4 +1,4 @@
-# foobar-minion-labour-shifts
+# foobar
 24/11/2020 (the year the world burns alive)
 
 These are the challenges I was given by foobar and my results.
