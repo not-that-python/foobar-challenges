@@ -1,7 +1,7 @@
 import numpy as np
 from fractions import Fraction
 
-def lcm(x, y):
+def lcm(x, y): # Function for finding the lowest common factor between two numbers
    if x > y:
        greater = x
    else:
